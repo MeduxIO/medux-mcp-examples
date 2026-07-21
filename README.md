@@ -7,10 +7,11 @@ Medux provides one hosted MCP service for image, video, voice, avatar, document,
 ## Start here
 
 1. [Get a Medux API key](https://medux.io/overview/mcp).
-2. Connect the hosted Medux MCP service using the guide for [Codex](docs/codex.md) or [Claude](docs/claude.md).
-3. For Codex or Claude Code, put inputs in the workspace; for claude.ai or Claude Desktop, attach them to the conversation.
-4. Choose a workflow under the client for which it was authored and copy its prompt.
-5. Review the proposed tool and arguments before approving the call.
+2. Connect the hosted Medux MCP service: start with [Connect Medux MCP](docs/connection.md), then follow the guide for [Codex](docs/codex.md) or [Claude](docs/claude.md).
+3. Skim [Concepts](docs/concepts.md) so you can read a proposed tool call: files vs. assets, upload URLs, the async task lifecycle, and credits.
+4. For Codex or Claude Code, put inputs in the workspace; for claude.ai or Claude Desktop, attach them to the conversation.
+5. Choose a workflow under the client for which it was authored and copy its prompt.
+6. Review the proposed tool and arguments before approving the call.
 
 > [!IMPORTANT]
 > MCP tool schemas and account-specific connection details can change. Treat the Medux MCP integration page and the linked API reference as the source of truth. An example listed under one client is not claimed as tested on the other client.
@@ -75,6 +76,15 @@ Most file-based workflows follow the same service pattern, although file selecti
 7. The agent checks task status and downloads the completed result.
 
 See [Safe tool approval](docs/safe-tool-approval.md) before running a workflow with valuable or sensitive media.
+
+## Documentation
+
+- [Concepts](docs/concepts.md) — Medux terms used across the examples.
+- [Connect Medux MCP](docs/connection.md) — client-neutral setup and troubleshooting, with [Codex](docs/codex.md) and [Claude](docs/claude.md) guides.
+- [Safe tool approval](docs/safe-tool-approval.md) — review checklist before a billable or identity-linked call.
+- [Verification policy](docs/verification.md) — how examples move from documentation-derived to tested.
+
+See the [docs index](docs/README.md) for the full reading order.
 
 ## Resources
 

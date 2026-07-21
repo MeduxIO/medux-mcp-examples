@@ -1,6 +1,6 @@
 # Safe tool approval
 
-Review every proposed MCP call before approval.
+Review every proposed MCP call before approval. If a term below is unfamiliar, see [Concepts](concepts.md).
 
 ## Check the operation
 

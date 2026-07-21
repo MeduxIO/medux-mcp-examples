@@ -7,6 +7,8 @@ Use the client-specific setup guide:
 - [Connect Codex](codex.md)
 - [Connect Claude](claude.md)
 
+New to Medux? Read [Concepts](concepts.md) first for files vs. assets, upload URLs, the async task lifecycle, and credits.
+
 ## Before connecting
 
 - Sign in to Medux and create an API key.
