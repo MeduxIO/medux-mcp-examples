@@ -29,4 +29,47 @@ if [[ "$missing" -ne 0 ]]; then
   exit 1
 fi
 
+python3 - <<'PY'
+import json
+import re
+from collections import Counter
+from pathlib import Path
+
+repo = Path.cwd()
+manifest_path = repo / "examples/manifest.json"
+if not manifest_path.exists():
+    raise SystemExit("examples/manifest.json is missing")
+manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+records = manifest.get("records", [])
+if len(records) != 138 or manifest.get("tutorial_count") != 138:
+    raise SystemExit(f"expected 138 mapped tutorials, found {len(records)}")
+clients = Counter(record["client"] for record in records)
+if clients != {"codex": 69, "claude": 69}:
+    raise SystemExit(f"unexpected client coverage: {dict(clients)}")
+tutorials = [record["tutorial_file"] for record in records]
+paths = [record["example_path"] for record in records]
+if len(tutorials) != len(set(tutorials)):
+    raise SystemExit("duplicate tutorial mapping in manifest")
+if len(paths) != len(set(paths)):
+    raise SystemExit("multiple tutorials map to the same example path")
+for record in records:
+    path = repo / record["example_path"]
+    if not path.exists():
+        raise SystemExit(f"mapped example is missing: {path}")
+    body = path.read_text(encoding="utf-8")
+    if record["tutorial_url"] not in body:
+        raise SystemExit(f"mapped tutorial link is missing from {path}")
+    if not record.get("tools"):
+        raise SystemExit(f"tool mapping is missing for {record['tutorial_file']}")
+for markdown in repo.rglob("*.md"):
+    body = markdown.read_text(encoding="utf-8")
+    for target in re.findall(r"\[[^]]+\]\(([^)]+)\)", body):
+        if target.startswith(("http://", "https://", "#", "mailto:")):
+            continue
+        local_target = target.split("#", 1)[0]
+        if local_target and not (markdown.parent / local_target).exists():
+            raise SystemExit(f"broken local Markdown link in {markdown}: {target}")
+print("Manifest covers 138 tutorials: 69 Codex and 69 Claude.")
+PY
+
 echo "Repository checks passed."

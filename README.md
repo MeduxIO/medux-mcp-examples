@@ -17,9 +17,13 @@ Medux provides one hosted MCP service for image, video, voice, avatar, document,
 
 ## Examples
 
+The repository currently maps all **138 published MCP tutorial pages** to client-specific examples: **69 for Codex** and **69 for Claude**.
+
 ### Codex examples
 
 These examples use Codex workspace language, local file inspection, explicit command/tool approval, and local result verification.
+
+[Browse all 69 Codex examples](examples/codex/INDEX.md).
 
 | Workflow | Expected tool | Source tutorial |
 | --- | --- | --- |
@@ -33,6 +37,8 @@ These examples use Codex workspace language, local file inspection, explicit com
 
 These examples distinguish chat attachments and per-conversation connectors in claude.ai/Claude Desktop from working-directory files and `/mcp` in Claude Code.
 
+[Browse all 69 Claude examples](examples/claude/INDEX.md).
+
 | Workflow | Expected tool | Source tutorial |
 | --- | --- | --- |
 | [Remove an image background](examples/claude/process/remove-image-background/README.md) | `medux_image_remove_background` | [Claude tutorial](https://medux.io/tutorials/process_create_image_background_removal_claude_mcp.html) |
@@ -42,6 +48,19 @@ These examples distinguish chat attachments and per-conversation connectors in c
 ## Verification status
 
 The current examples are documentation-derived from published Medux tutorials. They have not been marked as live-tested in this repository because a test record, client version, Medux endpoint, and successful task evidence have not yet been committed. See [verification policy](docs/verification.md).
+
+## Regenerate from the tutorial source
+
+The bulk examples and client indexes are generated from the published tutorial HTML. Eight flagship examples remain manually curated and are protected from overwrite.
+
+```bash
+./scripts/generate_examples.py \
+  --tutorial-dir /path/to/medux/tutorials \
+  --expected-count 138
+./scripts/check.sh
+```
+
+The generator writes [the tutorial-to-example manifest](examples/manifest.json), which is used to verify one-to-one coverage.
 
 ## How the workflows work
 
