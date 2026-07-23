@@ -59,6 +59,10 @@ for record in records:
     body = path.read_text(encoding="utf-8")
     if record["tutorial_url"] not in body:
         raise SystemExit(f"mapped tutorial link is missing from {path}")
+    index_path = repo / "examples" / record["client"] / "INDEX.md"
+    index_body = index_path.read_text(encoding="utf-8")
+    if record["tutorial_url"] not in index_body:
+        raise SystemExit(f"mapped tutorial link is missing from {index_path}")
     if not record.get("tools"):
         raise SystemExit(f"tool mapping is missing for {record['tutorial_file']}")
 for markdown in repo.rglob("*.md"):

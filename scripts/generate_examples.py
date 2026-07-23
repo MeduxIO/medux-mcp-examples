@@ -332,14 +332,28 @@ def render_index(client: str, records: list[dict]) -> str:
     for record in records:
         grouped[record["category"]].append(record)
     lines = [GENERATED_MARKER, f"# Medux MCP examples for {client_name}", ""]
-    lines.append(f"{len(records)} workflows derived from published Medux {client_name} tutorials.")
+    lines.append(
+        f"{len(records)} workflows derived from published "
+        f"[Medux {client_name} tutorials]({SITE}/tutorials/index.html)."
+    )
     lines.extend(["", "All entries are documentation-derived unless their directory contains a `VERIFICATION.md` record.", ""])
     for category in sorted(grouped, key=lambda item: CATEGORY_NAMES.get(item, item)):
-        lines.extend([f"## {CATEGORY_NAMES.get(category, category.title())}", "", "| Example | Expected tool |", "| --- | --- |"])
+        lines.extend(
+            [
+                f"## {CATEGORY_NAMES.get(category, category.title())}",
+                "",
+                "| Example | Expected tool | Source tutorial |",
+                "| --- | --- | --- |",
+            ]
+        )
         for record in sorted(grouped[category], key=lambda item: item["title"].lower()):
             index_path = Path(f"examples/{client}/INDEX.md")
             relative = Path(record["example_path"]).relative_to(index_path.parent)
-            lines.append(f"| [{record['title']}]({relative.as_posix()}) | {tool_label(record['tools'])} |")
+            lines.append(
+                f"| [{record['title']}]({relative.as_posix()}) "
+                f"| {tool_label(record['tools'])} "
+                f"| [{client_name} tutorial]({record['tutorial_url']}) |"
+            )
         lines.append("")
     return "\n".join(lines)
 

@@ -91,7 +91,7 @@ See the [docs index](docs/README.md) for the full reading order.
 - [Medux MCP overview](https://medux.io/overview/mcp)
 - [Medux API overview](https://medux.io/overview/api)
 - [API reference](https://medux.io/api-reference/)
-- [All tutorials](https://medux.io/tutorials/)
+- [All tutorials](https://medux.io/tutorials/index.html)
 - [Pricing](https://medux.io/pricing)
 
 ## Contributing

@@ -2,7 +2,7 @@
 
 This page explains the terms the examples in this repository use, so an agent's
 proposed tool call is easy to review. Medux organizes its tools around the same
-four product modules used on the [tutorials site](https://medux.io/tutorials/):
+four product modules used on the [tutorials site](https://medux.io/tutorials/index.html):
 **Clone**, **Generate**, **Process**, and **Infra**. The live MCP schema and the
 [API reference](https://medux.io/api-reference/) are always the source of truth;
 names and accepted values below can change.

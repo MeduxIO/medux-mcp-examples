@@ -37,4 +37,4 @@ Generation availability and accepted values can change. Review the live schema b
 
 - [Complete Codex MCP tutorial](https://medux.io/tutorials/generate_create_text_to_video_codex_mcp.html)
 - [Create Text to Video API reference](https://medux.io/api-reference/generate/create-text-to-video)
-- [More Medux tutorials](https://medux.io/tutorials/)
+- [More Medux tutorials](https://medux.io/tutorials/index.html)
