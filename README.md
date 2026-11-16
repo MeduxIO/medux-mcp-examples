@@ -22,6 +22,8 @@ Medux provides one hosted MCP service for image, video, voice, avatar, document,
 
 The repository currently maps all **138 published MCP tutorial pages** to client-specific examples: **69 for Codex** and **69 for Claude**.
 
+Some tutorials describe REST operations that the MCP server does not expose (listing assets, tasks, results, voices and avatars, editing voice parameters, creating assets, creating a video by project). Those 8 examples per client are marked **REST only** and link to the REST API instead. For the tools that really exist, see the [tool reference](docs/tools.md).
+
 ### Codex examples
 
 These examples use Codex workspace language, local file inspection, explicit command/tool approval, and local result verification.
@@ -33,7 +35,7 @@ These examples use Codex workspace language, local file inspection, explicit com
 | [Text to video](examples/codex/generate/text-to-video/README.md) | `medux_video_generate_text_to_video` | [Codex tutorial](https://medux.io/tutorials/generate_create_text_to_video_codex_mcp.html) |
 | [Image to video](examples/codex/generate/image-to-video/README.md) | `medux_video_generate_image_to_video` | [Codex tutorial](https://medux.io/tutorials/generate_create_image_to_video_codex_mcp.html) |
 | [Trim a video](examples/codex/process/trim-video/README.md) | `medux_trim_video` | [Codex tutorial](https://medux.io/tutorials/media_trim_video_codex_mcp.html) |
-| [Add a logo to a video](examples/codex/process/add-logo-to-video/README.md) | `add_logo_to_video` | [Codex tutorial](https://medux.io/tutorials/add_logo_codex_mcp.html) |
+| [Add a logo to a video](examples/codex/process/add-logo-to-video/README.md) | `medux_add_logo_to_video` | [Codex tutorial](https://medux.io/tutorials/add_logo_codex_mcp.html) |
 | [PDF to Word](examples/codex/documents/pdf-to-word/README.md) | `medux_pdf_to_word` | [Codex tutorial](https://medux.io/tutorials/document_pdf_to_word_codex_mcp.html) |
 
 ### Claude examples
