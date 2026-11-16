@@ -5,7 +5,7 @@ this repository. Read them roughly in this order.
 
 - [Concepts](concepts.md) — Medux terms the examples use: files vs. assets, upload
   URLs, the asynchronous task lifecycle, credits, and common request fields.
-- [Connect Medux MCP](connection.md) — pick a client, then follow its setup guide.
+- [Connect Medux MCP](connection.md) — endpoint (`https://medux.io/mcp`), OAuth vs. API key, tool overview, call flow, troubleshooting.
   - [Connect Codex](codex.md)
   - [Connect Claude](claude.md)
 - [Safe tool approval](safe-tool-approval.md) — what to check before you approve a
