@@ -8,6 +8,7 @@ this repository. Read them roughly in this order.
 - [Connect Medux MCP](connection.md) — endpoint (`https://medux.io/mcp`), OAuth vs. API key, tool overview, call flow, troubleshooting.
   - [Connect Codex](codex.md)
   - [Connect Claude](claude.md)
+- [Tool reference](tools.md) — every MCP tool, grouped, with required inputs.
 - [Safe tool approval](safe-tool-approval.md) — what to check before you approve a
   billable or identity-linked call.
 - [Verification policy](verification.md) — what "documentation-derived" vs. "tested"

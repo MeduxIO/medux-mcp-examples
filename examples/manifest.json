@@ -311,7 +311,7 @@
       "title": "How to Edit Voice Parameters with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to update tuning parameters for an existing reusable voice asset, including setup, request fields, tool approval, and…",
       "tools": [
-        "medux_edit_voice_parameters"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/clone/edit-voice-parameters",
       "fields": [
@@ -346,10 +346,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run Edit Voice Parameters. Review the required inputs, call medux_edit_voice_parameters, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/clone/clone-edit-voice-parameters/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "clone_edit_voice_parameters_codex_mcp.html",
@@ -360,7 +361,7 @@
       "title": "How to Edit Voice Parameters with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to update tuning parameters for an existing reusable voice asset, including setup, request fields, tool approval, and…",
       "tools": [
-        "medux_edit_voice_parameters"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/clone/edit-voice-parameters",
       "fields": [
@@ -395,10 +396,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run Edit Voice Parameters. Review the required inputs, call medux_edit_voice_parameters, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/clone/clone-edit-voice-parameters/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "clone_get_avatar_task_claude_mcp.html",
@@ -409,7 +411,7 @@
       "title": "How to Get Avatar Task with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to return the current state of an avatar cloning task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_avatar_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/clone/get-avatar-task",
       "fields": [
@@ -417,10 +419,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Avatar Task. Review the required inputs, call medux_get_avatar_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/claude/clone/clone-get-avatar-task/README.md",
       "mode": "generated"
@@ -434,7 +436,7 @@
       "title": "How to Get Avatar Task with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to return the current state of an avatar cloning task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_avatar_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/clone/get-avatar-task",
       "fields": [
@@ -442,10 +444,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Avatar Task. Review the required inputs, call medux_get_avatar_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/codex/clone/clone-get-avatar-task/README.md",
       "mode": "generated"
@@ -459,7 +461,7 @@
       "title": "How to Get Voice Task with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to return the current state of a voice cloning task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_voice_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/clone/get-voice-task",
       "fields": [
@@ -467,10 +469,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Voice Task. Review the required inputs, call medux_get_voice_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/claude/clone/clone-get-voice-task/README.md",
       "mode": "generated"
@@ -484,7 +486,7 @@
       "title": "How to Get Voice Task with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to return the current state of a voice cloning task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_voice_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/clone/get-voice-task",
       "fields": [
@@ -492,10 +494,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Voice Task. Review the required inputs, call medux_get_voice_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/codex/clone/clone-get-voice-task/README.md",
       "mode": "generated"
@@ -509,7 +511,7 @@
       "title": "How to List Avatars with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to list reusable avatar assets owned by the authenticated user, including setup, request fields, tool approval, and…",
       "tools": [
-        "medux_list_avatars"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/clone/list-avatars",
       "fields": [
@@ -526,10 +528,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run List Avatars. Review the required inputs, call medux_list_avatars, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/clone/clone-list-avatars/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "clone_list_avatars_codex_mcp.html",
@@ -540,7 +543,7 @@
       "title": "How to List Avatars with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to list reusable avatar assets owned by the authenticated user, including setup, request fields, tool approval, and…",
       "tools": [
-        "medux_list_avatars"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/clone/list-avatars",
       "fields": [
@@ -557,10 +560,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run List Avatars. Review the required inputs, call medux_list_avatars, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/clone/clone-list-avatars/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "clone_list_voices_claude_mcp.html",
@@ -571,7 +575,7 @@
       "title": "How to List Voices with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to list reusable voice assets owned by the authenticated user, including setup, request fields, tool approval, and…",
       "tools": [
-        "medux_list_voices"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/clone/list-voices",
       "fields": [
@@ -588,10 +592,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run List Voices. Review the required inputs, call medux_list_voices, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/clone/clone-list-voices/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "clone_list_voices_codex_mcp.html",
@@ -602,7 +607,7 @@
       "title": "How to List Voices with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to list reusable voice assets owned by the authenticated user, including setup, request fields, tool approval, and…",
       "tools": [
-        "medux_list_voices"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/clone/list-voices",
       "fields": [
@@ -619,10 +624,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run List Voices. Review the required inputs, call medux_list_voices, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/clone/clone-list-voices/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "doc_to_pdf_claude_mcp.html",
@@ -2705,7 +2711,7 @@
       "title": "How to Create Video by Project with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to start video generation from an existing flyworks provider project, including setup, request fields, tool approval,…",
       "tools": [
-        "medux_create_video_by_project"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/generate/create-video-by-project",
       "fields": [
@@ -2722,10 +2728,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run Create Video by Project. Review the required inputs, call medux_create_video_by_project, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/generate/generate-create-video-by-project/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "generate_create_video_by_project_codex_mcp.html",
@@ -2736,7 +2743,7 @@
       "title": "How to Create Video by Project with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to start video generation from an existing flyworks provider project, including setup, request fields, tool approval,…",
       "tools": [
-        "medux_create_video_by_project"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/generate/create-video-by-project",
       "fields": [
@@ -2753,10 +2760,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run Create Video by Project. Review the required inputs, call medux_create_video_by_project, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/generate/generate-create-video-by-project/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "generate_get_creation_task_claude_mcp.html",
@@ -2767,7 +2775,7 @@
       "title": "How to Get Creation Task with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to return the current state of a media generation task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_creation_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/generate/get-creation-task",
       "fields": [
@@ -2775,10 +2783,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Creation Task. Review the required inputs, call medux_get_creation_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/claude/generate/generate-get-creation-task/README.md",
       "mode": "generated"
@@ -2792,7 +2800,7 @@
       "title": "How to Get Creation Task with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to return the current state of a media generation task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_creation_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/generate/get-creation-task",
       "fields": [
@@ -2800,10 +2808,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Creation Task. Review the required inputs, call medux_get_creation_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/codex/generate/generate-get-creation-task/README.md",
       "mode": "generated"
@@ -3109,24 +3117,24 @@
       "title": "How to Create Upload URL with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to create a pre-signed upload url and file reference for a direct client upload, including setup, request fields, tool…",
       "tools": [
-        "medux_create_upload_url"
+        "medux_file_create_upload_url"
       ],
       "api_url": "https://medux.io/api-reference/get-started/create-upload-url",
       "fields": [
         {
-          "name": "extension",
-          "type": "string",
-          "requirement": "Optional",
-          "purpose": "File extension without a leading dot, such as mp4."
-        },
-        {
           "name": "media_type",
           "type": "string",
-          "requirement": "Optional",
-          "purpose": "Media type used to validate extension and build the object path. Allowed values: - MEDIA TYPE UNDEFINED - Not specified. - VIDEO - Video file, such as mp4. - AUDIO - Audio file, such as mp3. - IMAGE - Image file, such…"
+          "requirement": "Required",
+          "purpose": "One of VIDEO, AUDIO, IMAGE or DOCUMENT."
+        },
+        {
+          "name": "extension",
+          "type": "string",
+          "requirement": "Required",
+          "purpose": "File extension without the dot, for example mp4."
         }
       ],
-      "prompt": "Use Medux to run Create Upload URL. Review the required inputs, call medux_create_upload_url, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Upload {local file} to Medux with medux_file_create_upload_url, PUT the file to the returned URL, and tell me the file_id. Do not start any task.",
       "additional_api_urls": [],
       "example_path": "examples/claude/workflows/get-started-create-upload-url/README.md",
       "mode": "generated"
@@ -3140,24 +3148,24 @@
       "title": "How to Create Upload URL with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to create a pre-signed upload url and file reference for a direct client upload, including setup, request fields, tool…",
       "tools": [
-        "medux_create_upload_url"
+        "medux_file_create_upload_url"
       ],
       "api_url": "https://medux.io/api-reference/get-started/create-upload-url",
       "fields": [
         {
-          "name": "extension",
-          "type": "string",
-          "requirement": "Optional",
-          "purpose": "File extension without a leading dot, such as mp4."
-        },
-        {
           "name": "media_type",
           "type": "string",
-          "requirement": "Optional",
-          "purpose": "Media type used to validate extension and build the object path. Allowed values: - MEDIA TYPE UNDEFINED - Not specified. - VIDEO - Video file, such as mp4. - AUDIO - Audio file, such as mp3. - IMAGE - Image file, such…"
+          "requirement": "Required",
+          "purpose": "One of VIDEO, AUDIO, IMAGE or DOCUMENT."
+        },
+        {
+          "name": "extension",
+          "type": "string",
+          "requirement": "Required",
+          "purpose": "File extension without the dot, for example mp4."
         }
       ],
-      "prompt": "Use Medux to run Create Upload URL. Review the required inputs, call medux_create_upload_url, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Upload {local file} to Medux with medux_file_create_upload_url, PUT the file to the returned URL, and tell me the file_id. Do not start any task.",
       "additional_api_urls": [],
       "example_path": "examples/codex/workflows/get-started-create-upload-url/README.md",
       "mode": "generated"
@@ -3207,7 +3215,7 @@
       "title": "How to Create Asset with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to create an asset record from a file that was uploaded through a direct upload url, including setup, request fields,…",
       "tools": [
-        "medux_create_asset"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/create-asset",
       "fields": [
@@ -3242,10 +3250,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run Create Asset. Review the required inputs, call medux_create_asset, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/infra/infra-create-asset/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_create_asset_codex_mcp.html",
@@ -3256,7 +3265,7 @@
       "title": "How to Create Asset with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to create an asset record from a file that was uploaded through a direct upload url, including setup, request fields,…",
       "tools": [
-        "medux_create_asset"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/create-asset",
       "fields": [
@@ -3291,10 +3300,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run Create Asset. Review the required inputs, call medux_create_asset, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/infra/infra-create-asset/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_get_task_claude_mcp.html",
@@ -3305,7 +3315,7 @@
       "title": "How to Get Task with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to return one task record by its id, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/infra/get-task",
       "fields": [
@@ -3313,10 +3323,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Task. Review the required inputs, call medux_get_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/claude/infra/infra-get-task/README.md",
       "mode": "generated"
@@ -3330,7 +3340,7 @@
       "title": "How to Get Task with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to return one task record by its id, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/infra/get-task",
       "fields": [
@@ -3338,10 +3348,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Task. Review the required inputs, call medux_get_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/codex/infra/infra-get-task/README.md",
       "mode": "generated"
@@ -3355,7 +3365,7 @@
       "title": "How to List Assets with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to list assets owned by the authenticated user, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_list_assets"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/list-assets",
       "fields": [
@@ -3384,10 +3394,11 @@
           "purpose": ". assethpb.Status:\\ ... enums:\\ ..... STATUS UNDEFINED\\ ..... PROCESSING\\ ..... ACTIVE\\ ..... LOCKED\\ ..... EXPIRING SOON\\ ..... EXPIRED\\ ..... DELETED"
         }
       ],
-      "prompt": "Use Medux to run List Assets. Review the required inputs, call medux_list_assets, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/infra/infra-list-assets/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_list_assets_codex_mcp.html",
@@ -3398,7 +3409,7 @@
       "title": "How to List Assets with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to list assets owned by the authenticated user, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_list_assets"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/list-assets",
       "fields": [
@@ -3427,10 +3438,11 @@
           "purpose": ". assethpb.Status:\\ ... enums:\\ ..... STATUS UNDEFINED\\ ..... PROCESSING\\ ..... ACTIVE\\ ..... LOCKED\\ ..... EXPIRING SOON\\ ..... EXPIRED\\ ..... DELETED"
         }
       ],
-      "prompt": "Use Medux to run List Assets. Review the required inputs, call medux_list_assets, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/infra/infra-list-assets/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_list_results_claude_mcp.html",
@@ -3441,7 +3453,7 @@
       "title": "How to List Results with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to list saved result records for the authenticated user, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_list_results"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/list-results",
       "fields": [
@@ -3476,10 +3488,11 @@
           "purpose": "Allowed values: - RESULT STATUS UNDEFINED - Not specified. - READY - Result is ready. - RESULT PROCESSING - Result is still processing. - RESULT FAILED - Result generation failed. - RESULT EXPIRED - Result is expired."
         }
       ],
-      "prompt": "Use Medux to run List Results. Review the required inputs, call medux_list_results, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/infra/infra-list-results/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_list_results_codex_mcp.html",
@@ -3490,7 +3503,7 @@
       "title": "How to List Results with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to list saved result records for the authenticated user, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_list_results"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/list-results",
       "fields": [
@@ -3525,10 +3538,11 @@
           "purpose": "Allowed values: - RESULT STATUS UNDEFINED - Not specified. - READY - Result is ready. - RESULT PROCESSING - Result is still processing. - RESULT FAILED - Result generation failed. - RESULT EXPIRED - Result is expired."
         }
       ],
-      "prompt": "Use Medux to run List Results. Review the required inputs, call medux_list_results, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/infra/infra-list-results/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_list_tasks_claude_mcp.html",
@@ -3539,7 +3553,7 @@
       "title": "How to List Tasks with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to list media tasks created by the authenticated user, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_list_tasks"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/list-tasks",
       "fields": [
@@ -3574,10 +3588,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run List Tasks. Review the required inputs, call medux_list_tasks, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/claude/infra/infra-list-tasks/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_list_tasks_codex_mcp.html",
@@ -3588,7 +3603,7 @@
       "title": "How to List Tasks with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to list media tasks created by the authenticated user, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_list_tasks"
+        "(none: REST API only)"
       ],
       "api_url": "https://medux.io/api-reference/infra/list-tasks",
       "fields": [
@@ -3623,10 +3638,11 @@
           "purpose": "Provide the value described in the API reference."
         }
       ],
-      "prompt": "Use Medux to run List Tasks. Review the required inputs, call medux_list_tasks, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "This operation is not available over MCP. Use the REST API instead.",
       "additional_api_urls": [],
       "example_path": "examples/codex/infra/infra-list-tasks/README.md",
-      "mode": "generated"
+      "mode": "generated",
+      "mcp_available": false
     },
     {
       "tutorial_file": "infra_sync_task_claude_mcp.html",
@@ -3637,7 +3653,7 @@
       "title": "How to Sync Task with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to sync the task with the upstream provider and return the latest local state, including setup, request fields, tool…",
       "tools": [
-        "medux_sync_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/infra/sync-task",
       "fields": [
@@ -3645,10 +3661,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Sync Task. Review the required inputs, call medux_sync_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/claude/infra/infra-sync-task/README.md",
       "mode": "generated"
@@ -3662,7 +3678,7 @@
       "title": "How to Sync Task with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to sync the task with the upstream provider and return the latest local state, including setup, request fields, tool…",
       "tools": [
-        "medux_sync_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/infra/sync-task",
       "fields": [
@@ -3670,10 +3686,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Sync Task. Review the required inputs, call medux_sync_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/codex/infra/infra-sync-task/README.md",
       "mode": "generated"
@@ -5197,48 +5213,31 @@
       "title": "How to Create Video Watermark Removal with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to create a video processing task that removes a watermark from an uploaded video, including setup, request fields,…",
       "tools": [
-        "medux_video_remove_watermark"
+        "medux_watermark_removal",
+        "medux_watermark_removal_by_prompt"
       ],
       "api_url": "https://medux.io/api-reference/process/create-video-watermark-removal",
       "fields": [
         {
-          "name": "file_id",
+          "name": "input_file_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Input video file_id."
         },
         {
-          "name": "region.height",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "Provide the value described in the API reference."
+          "name": "regions",
+          "type": "array",
+          "requirement": "Required (medux_watermark_removal)",
+          "purpose": "Regions to remove, for example [[x, y, width, height]]."
         },
         {
-          "name": "region.width",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "Provide the value described in the API reference."
-        },
-        {
-          "name": "region.x",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "X coordinate of the region's top-left corner in pixels."
-        },
-        {
-          "name": "region.y",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "Y coordinate of the region's top-left corner in pixels."
-        },
-        {
-          "name": "title",
+          "name": "prompt_text",
           "type": "string",
-          "requirement": "Optional",
-          "purpose": "Provide the value described in the API reference."
+          "requirement": "Required (medux_watermark_removal_by_prompt)",
+          "purpose": "Text description of the watermark to remove."
         }
       ],
-      "prompt": "Remove the watermark from the uploaded source video {file id}. If the watermark area is known, pass region {x, y, width, height}.",
+      "prompt": "Remove the watermark from the uploaded video {file id}. If the watermark area is known, use medux_watermark_removal with regions [[x, y, width, height]]; otherwise use medux_watermark_removal_by_prompt with a short description of the watermark.",
       "additional_api_urls": [],
       "example_path": "examples/claude/process/process-create-video-watermark-removal/README.md",
       "mode": "generated"
@@ -5252,48 +5251,31 @@
       "title": "How to Create Video Watermark Removal with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to create a video processing task that removes a watermark from an uploaded video, including setup, request fields,…",
       "tools": [
-        "medux_video_remove_watermark"
+        "medux_watermark_removal",
+        "medux_watermark_removal_by_prompt"
       ],
       "api_url": "https://medux.io/api-reference/process/create-video-watermark-removal",
       "fields": [
         {
-          "name": "file_id",
+          "name": "input_file_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Input video file_id."
         },
         {
-          "name": "region.height",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "Provide the value described in the API reference."
+          "name": "regions",
+          "type": "array",
+          "requirement": "Required (medux_watermark_removal)",
+          "purpose": "Regions to remove, for example [[x, y, width, height]]."
         },
         {
-          "name": "region.width",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "Provide the value described in the API reference."
-        },
-        {
-          "name": "region.x",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "X coordinate of the region's top-left corner in pixels."
-        },
-        {
-          "name": "region.y",
-          "type": "int32",
-          "requirement": "Optional",
-          "purpose": "Y coordinate of the region's top-left corner in pixels."
-        },
-        {
-          "name": "title",
+          "name": "prompt_text",
           "type": "string",
-          "requirement": "Optional",
-          "purpose": "Provide the value described in the API reference."
+          "requirement": "Required (medux_watermark_removal_by_prompt)",
+          "purpose": "Text description of the watermark to remove."
         }
       ],
-      "prompt": "Remove the watermark from the uploaded source video {file id}. If the watermark area is known, pass region {x, y, width, height}.",
+      "prompt": "Remove the watermark from the uploaded video {file id}. If the watermark area is known, use medux_watermark_removal with regions [[x, y, width, height]]; otherwise use medux_watermark_removal_by_prompt with a short description of the watermark.",
       "additional_api_urls": [],
       "example_path": "examples/codex/process/process-create-video-watermark-removal/README.md",
       "mode": "generated"
@@ -5307,7 +5289,7 @@
       "title": "How to Get Process Task with Claude MCP and Medux",
       "description": "Learn how to use Claude MCP and Medux to return the current state of a media processing task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_process_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/process/get-process-task",
       "fields": [
@@ -5315,10 +5297,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Process Task. Review the required inputs, call medux_get_process_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/claude/process/process-get-process-task/README.md",
       "mode": "generated"
@@ -5332,7 +5314,7 @@
       "title": "How to Get Process Task with Codex MCP and Medux",
       "description": "Learn how to use Codex MCP and Medux to return the current state of a media processing task, including setup, request fields, tool approval, and results.",
       "tools": [
-        "medux_get_process_task"
+        "medux_task_query"
       ],
       "api_url": "https://medux.io/api-reference/process/get-process-task",
       "fields": [
@@ -5340,10 +5322,10 @@
           "name": "task_id",
           "type": "string",
           "requirement": "Required",
-          "purpose": "Provide the value described in the API reference."
+          "purpose": "Public task id returned by a Medux tool call."
         }
       ],
-      "prompt": "Use Medux to run Get Process Task. Review the required inputs, call medux_get_process_task, wait for the result if a task is returned, and report the output clearly.",
+      "prompt": "Use Medux to check the task {task id} with medux_task_query and report its status. If it has succeeded, give me the output URL.",
       "additional_api_urls": [],
       "example_path": "examples/codex/process/process-get-process-task/README.md",
       "mode": "generated"

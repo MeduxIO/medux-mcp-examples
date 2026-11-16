@@ -45,13 +45,12 @@ without further authentication and should never be committed or shared.
 
 Most Generate and Process operations are **asynchronous**. Creating the job does
 not return the finished media; it returns a **`task_id`**. The agent then polls a
-task-status tool (for example `medux_get_task` / `medux_task_query`, or the
-module-specific `medux_get_voice_task` and `medux_get_avatar_task`) until the
+task-status tool, `medux_task_query`, until the
 task reports success or failure, and only then downloads the result. Two
 consequences worth checking when you review a call: keep the returned `task_id`
 so a status check can be resumed, and expect a completed job to expose a result
-you can download rather than inline media. Listing tools (`medux_list_tasks`,
-`medux_list_results`) let you find earlier jobs and their outputs.
+you can download rather than inline media. Keep the `task_id` of earlier jobs; listing tasks
+and results is available in the REST API but not as an MCP tool.
 
 ## Common request fields
 

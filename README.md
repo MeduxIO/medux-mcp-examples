@@ -63,6 +63,12 @@ The bulk examples and client indexes are generated from the published tutorial H
 ./scripts/check.sh
 ```
 
+Some tutorials name REST operations as MCP tools. Re-apply the corrections after every regeneration (they map task getters to `medux_task_query`, and mark operations with no MCP tool as REST-only):
+
+```bash
+./scripts/apply_tool_corrections.py
+```
+
 The generator writes [the tutorial-to-example manifest](examples/manifest.json), which is used to verify one-to-one coverage.
 
 ## How the workflows work
@@ -81,6 +87,7 @@ See [Safe tool approval](docs/safe-tool-approval.md) before running a workflow w
 
 ## Documentation
 
+- [Tool reference](docs/tools.md) — all 69 MCP tools with required inputs, plus prompts for tools without a tutorial example.
 - [Concepts](docs/concepts.md) — Medux terms used across the examples.
 - [Connect Medux MCP](docs/connection.md) — client-neutral setup and troubleshooting, with [Codex](docs/codex.md) and [Claude](docs/claude.md) guides.
 - [Safe tool approval](docs/safe-tool-approval.md) — review checklist before a billable or identity-linked call.
