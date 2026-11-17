@@ -1,5 +1,7 @@
 # Contributing
 
+> Website page: <https://medux.io/tutorials>
+
 Contributions should add or improve a reproducible Medux MCP workflow.
 
 ## Add an example

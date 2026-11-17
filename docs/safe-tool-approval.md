@@ -1,5 +1,7 @@
 # Safe tool approval
 
+> Website page: <https://medux.io/overview/mcp>
+
 Review every proposed MCP call before approval. If a term below is unfamiliar, see [Concepts](concepts.md).
 
 ## Check the operation

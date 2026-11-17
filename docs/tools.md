@@ -1,5 +1,7 @@
 # Medux MCP tool reference
 
+> Website page: <https://medux.io/overview/mcp>
+
 All 69 tools exposed by `https://medux.io/mcp`, grouped by what they do. Names are exactly what the server returns from `tools/list`; the live schema stays the source of truth (`model_id` enums and defaults change as models are added).
 
 Conventions used by every tool below:

@@ -1,5 +1,7 @@
 # Example verification policy
 
+> Website page: <https://medux.io/overview/mcp>
+
 An example must not claim support for a client merely because both clients implement MCP.
 
 ## Status definitions
