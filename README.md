@@ -24,6 +24,14 @@ The repository currently maps all **138 published MCP tutorial pages** to client
 
 Some tutorials describe REST operations that the MCP server does not expose (listing assets, tasks, results, voices and avatars, editing voice parameters, creating assets, creating a video by project). Those 8 examples per client are marked **REST only** and link to the REST API instead. For the tools that really exist, see the [tool reference](docs/tools.md).
 
+### Workshop examples
+
+Examples written for a Medux Workshop page rather than a published tutorial. They are not part of the generated tutorial indexes above.
+
+| Workflow | Claude | Codex | Workshop page |
+| --- | --- | --- | --- |
+| Face Swap Plus (video) | [Claude example](examples/claude/edit/face-swap-plus/README.md) — tested with Claude Code | [Codex example](examples/codex/edit/face-swap-plus/README.md) — documentation-derived | [medux.io/workshop/face-swap-plus](https://medux.io/workshop/face-swap-plus) |
+
 ### Codex examples
 
 These examples use Codex workspace language, local file inspection, explicit command/tool approval, and local result verification.
