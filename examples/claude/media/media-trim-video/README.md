@@ -34,6 +34,18 @@ Cut a video to a specified time range.
 - [Matching API reference](https://medux.io/api-reference/media/trim-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/trim-video](https://medux.io/playground/video/trim-video) |
+
+- REST API example: [examples/video/trim-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/trim-video)
+- Codex example: [codex/process/trim-video](../../../codex/process/trim-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

@@ -35,6 +35,20 @@ Generate a 5 second 720P 16:9 video from uploaded image {file id} and this motio
 - [Matching API reference](https://medux.io/api-reference/generate/create-image-to-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/image-to-video](https://medux.io/playground/video/image-to-video) |
+| Workshop | [medux.io/workshop/image-to-video](https://medux.io/workshop/image-to-video) |
+| Workshop | [medux.io/workshop/wan3](https://medux.io/workshop/wan3) |
+
+- REST API example: [examples/generate/create-image-to-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/generate/create-image-to-video)
+- Codex example: [codex/generate/image-to-video](../../../codex/generate/image-to-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

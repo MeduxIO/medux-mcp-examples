@@ -33,6 +33,18 @@ Shift the pitch of an audio file.
 - [Matching API reference](https://medux.io/api-reference/media/shift-audio-pitch)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/audio/shift-audio-pitch](https://medux.io/playground/audio/shift-audio-pitch) |
+
+- REST API example: [examples/voice-audio/shift-audio-pitch](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/voice-audio/shift-audio-pitch)
+- Claude example: [claude/media/adjust-audio-pitch](../../../claude/media/adjust-audio-pitch/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

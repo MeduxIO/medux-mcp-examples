@@ -31,6 +31,18 @@ Convert an Excel (.xlsx) file to PDF.
 - [Matching API reference](https://medux.io/api-reference/document/excel-to-pdf)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/excel-to-pdf](https://medux.io/playground/document/excel-to-pdf) |
+
+- REST API example: [examples/document/excel-to-pdf](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/excel-to-pdf)
+- Claude example: [claude/documents/document-excel-to-pdf](../../../claude/documents/document-excel-to-pdf/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

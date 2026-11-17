@@ -36,7 +36,21 @@ I have the right to use both the video and the face in the image.
 - [Face Swap Plus Workshop](https://medux.io/workshop/face-swap-plus)
 - [Matching API reference](https://medux.io/api-reference/ai-avatar/face-swap-plus)
 - [API example](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/face-swap-plus)
+- [Medux tutorials](https://medux.io/tutorials/)
 - [Medux MCP overview](https://medux.io/overview/mcp)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/face-swap-plus](https://medux.io/playground/video/face-swap-plus) |
+| Workshop | [medux.io/workshop/face-swap-plus](https://medux.io/workshop/face-swap-plus) |
+
+- REST API example: [examples/ai-avatar/face-swap-plus](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/face-swap-plus)
+- Codex example: [codex/edit/face-swap-plus](../../../codex/edit/face-swap-plus/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
 
 ## Verification
 

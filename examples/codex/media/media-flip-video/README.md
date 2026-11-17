@@ -32,6 +32,18 @@ Flip a video horizontally, vertically, or both.
 - [Matching API reference](https://medux.io/api-reference/media/flip-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/flip-video](https://medux.io/playground/video/flip-video) |
+
+- REST API example: [examples/video/flip-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/flip-video)
+- Claude example: [claude/media/media-flip-video](../../../claude/media/media-flip-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

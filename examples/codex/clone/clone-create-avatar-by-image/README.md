@@ -30,6 +30,18 @@ Clone a reusable avatar from the uploaded portrait image {file id}. Title it Off
 - [Matching API reference](https://medux.io/api-reference/clone/create-avatar-by-image)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/avatar/clone-by-image](https://medux.io/playground/avatar/clone-by-image) |
+
+- REST API example: [examples/clone/create-avatar-by-image](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/clone/create-avatar-by-image)
+- Claude example: [claude/clone/clone-create-avatar-by-image](../../../claude/clone/clone-create-avatar-by-image/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

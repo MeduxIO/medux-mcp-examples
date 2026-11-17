@@ -32,6 +32,19 @@ Swap a face from one image onto another while keeping the target pose and lighti
 - [Matching API reference](https://medux.io/api-reference/edit/face-swap)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/face-swap](https://medux.io/playground/image/face-swap) |
+| Workshop | [medux.io/workshop/image-face-swap](https://medux.io/workshop/image-face-swap) |
+
+- REST API example: [examples/ai-avatar/face-swap](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/face-swap)
+- Claude example: [claude/edit/face-swap](../../../claude/edit/face-swap/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

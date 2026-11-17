@@ -31,6 +31,18 @@ Swap the head in "swap_head_src.jpg" with the head in "swap_head_target.jpg". Us
 - [Matching API reference](https://medux.io/api-reference/edit/head-swap)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/head-swap](https://medux.io/playground/image/head-swap) |
+
+- REST API example: [examples/ai-avatar/head-swap](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/head-swap)
+- Codex example: [codex/edit/head-swap](../../../codex/edit/head-swap/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

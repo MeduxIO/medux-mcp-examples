@@ -38,3 +38,16 @@ Generation availability and accepted values can change. Review the live schema b
 - [Complete Codex MCP tutorial](https://medux.io/tutorials/generate_create_text_to_video_codex_mcp.html)
 - [Create Text to Video API reference](https://medux.io/api-reference/generate/create-text-to-video)
 - [More Medux tutorials](https://medux.io/tutorials/index.html)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/text-to-video](https://medux.io/playground/video/text-to-video) |
+| Workshop | [medux.io/workshop/seedance25](https://medux.io/workshop/seedance25) |
+
+- REST API example: [examples/generate/create-text-to-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/generate/create-text-to-video)
+- Claude example: [claude/generate/generate-create-text-to-video](../../../claude/generate/generate-create-text-to-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

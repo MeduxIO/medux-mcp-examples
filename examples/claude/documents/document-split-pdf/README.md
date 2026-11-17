@@ -32,6 +32,18 @@ Extract specific pages from a PDF into a new PDF.
 - [Matching API reference](https://medux.io/api-reference/document/split-pdf)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/split-pdf](https://medux.io/playground/document/split-pdf) |
+
+- REST API example: [examples/document/split-pdf](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/split-pdf)
+- Codex example: [codex/documents/document-split-pdf](../../../codex/documents/document-split-pdf/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

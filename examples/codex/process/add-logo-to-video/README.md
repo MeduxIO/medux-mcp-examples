@@ -36,3 +36,15 @@ workspace and extract one preview frame so we can verify placement.
 
 - [Complete Codex MCP tutorial with visual examples](https://medux.io/tutorials/add_logo_codex_mcp.html)
 - [Medux MCP overview](https://medux.io/overview/mcp)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/add-logo-to-video](https://medux.io/playground/video/add-logo-to-video) |
+
+- REST API example: [examples/video/add-logo-to-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/add-logo-to-video)
+- Claude example: [claude/media/add-logo-to-video](../../../claude/media/add-logo-to-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

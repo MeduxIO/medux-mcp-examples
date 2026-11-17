@@ -31,6 +31,19 @@ Using the connected Medux MCP server, create a lip-synced video from SOURCE_IMAG
 - [Matching API reference](https://medux.io/api-reference/generate/create-audio-driven-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/audio-driven-lip-sync](https://medux.io/playground/video/audio-driven-lip-sync) |
+| Workshop | [medux.io/workshop/lipsync](https://medux.io/workshop/lipsync) |
+
+- REST API example: [examples/generate/create-audio-driven-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/generate/create-audio-driven-video)
+- Claude example: [claude/generate/generate-create-audio-driven-video](../../../claude/generate/generate-create-audio-driven-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

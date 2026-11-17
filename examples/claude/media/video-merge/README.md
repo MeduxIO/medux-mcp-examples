@@ -31,6 +31,18 @@ Use Medux to merge two video clips: sample-clip-3s.mp4 and sample-clip-7s.mp4. U
 - [Matching API reference](https://medux.io/api-reference/media/merge-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/merge-video](https://medux.io/playground/video/merge-video) |
+
+- REST API example: [examples/video/merge-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/merge-video)
+- Codex example: [codex/media/video-editing](../../../codex/media/video-editing/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

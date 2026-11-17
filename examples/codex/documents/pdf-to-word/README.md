@@ -30,3 +30,15 @@ has content. Do not overwrite the source PDF.
 
 - [Complete Codex MCP tutorial](https://medux.io/tutorials/document_pdf_to_word_codex_mcp.html)
 - [PDF to Word API reference](https://medux.io/api-reference/document/pdf-to-word)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/pdf-to-word](https://medux.io/playground/document/pdf-to-word) |
+
+- REST API example: [examples/document/pdf-to-word](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/pdf-to-word)
+- Claude example: [claude/documents/document-pdf-to-word](../../../claude/documents/document-pdf-to-word/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

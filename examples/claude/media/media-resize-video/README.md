@@ -33,6 +33,18 @@ Resize a video to a target resolution.
 - [Matching API reference](https://medux.io/api-reference/media/resize-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/resize-video](https://medux.io/playground/video/resize-video) |
+
+- REST API example: [examples/video/resize-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/resize-video)
+- Codex example: [codex/media/media-resize-video](../../../codex/media/media-resize-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

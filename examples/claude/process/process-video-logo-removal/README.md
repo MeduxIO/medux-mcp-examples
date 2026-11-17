@@ -34,6 +34,30 @@ Remove a logo from a video using an optional logo reference and motion mode.
 - [Matching API reference](https://medux.io/api-reference/process/video-logo-removal)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/video-logo-removal](https://medux.io/playground/video/video-logo-removal) |
+| Workshop | [medux.io/workshop/remove](https://medux.io/workshop/remove) |
+| Workshop | [medux.io/workshop/remove/filmora-video-logo-removal](https://medux.io/workshop/remove/filmora-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/heygen-video-logo-removal](https://medux.io/workshop/remove/heygen-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/inshot-video-logo-removal](https://medux.io/workshop/remove/inshot-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/instagram-video-logo-removal](https://medux.io/workshop/remove/instagram-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/kling-video-logo-removal](https://medux.io/workshop/remove/kling-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/luma-video-logo-removal](https://medux.io/workshop/remove/luma-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/pika-video-logo-removal](https://medux.io/workshop/remove/pika-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/pixverse-video-logo-removal](https://medux.io/workshop/remove/pixverse-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/snapchat-video-logo-removal](https://medux.io/workshop/remove/snapchat-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/tiktok-video-logo-removal](https://medux.io/workshop/remove/tiktok-video-logo-removal) |
+| Workshop | [medux.io/workshop/remove/veo-video-logo-removal](https://medux.io/workshop/remove/veo-video-logo-removal) |
+
+- REST API example: [examples/video/video-logo-removal](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/video-logo-removal)
+- Codex example: [codex/process/process-video-logo-removal](../../../codex/process/process-video-logo-removal/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

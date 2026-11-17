@@ -32,6 +32,18 @@ Convert a PDF to a PowerPoint (.pptx) file.
 - [Matching API reference](https://medux.io/api-reference/document/pdf-to-ppt)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/pdf-to-ppt](https://medux.io/playground/document/pdf-to-ppt) |
+
+- REST API example: [examples/document/pdf-to-ppt](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/pdf-to-ppt)
+- Claude example: [claude/documents/document-pdf-to-ppt](../../../claude/documents/document-pdf-to-ppt/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

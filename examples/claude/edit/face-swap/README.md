@@ -31,6 +31,19 @@ swap_face_src.jpgTarget-face imageThe image containing the face you want to tran
 - [Matching API reference](https://medux.io/api-reference/edit/face-swap)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/face-swap](https://medux.io/playground/image/face-swap) |
+| Workshop | [medux.io/workshop/image-face-swap](https://medux.io/workshop/image-face-swap) |
+
+- REST API example: [examples/ai-avatar/face-swap](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/face-swap)
+- Codex example: [codex/edit/edit-face-swap](../../../codex/edit/edit-face-swap/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

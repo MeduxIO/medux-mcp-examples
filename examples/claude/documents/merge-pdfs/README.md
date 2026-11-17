@@ -31,3 +31,15 @@ page count equals the sum of the input page counts. Do not modify the sources.
 
 - [Complete Claude MCP tutorial](https://medux.io/tutorials/document_merge_pdf_claude_mcp.html)
 - [Merge PDF API reference](https://medux.io/api-reference/document/merge-pdf)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/merge-pdf](https://medux.io/playground/document/merge-pdf) |
+
+- REST API example: [examples/document/merge-pdf](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/merge-pdf)
+- Codex example: [codex/documents/document-merge-pdf](../../../codex/documents/document-merge-pdf/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

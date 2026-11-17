@@ -31,6 +31,18 @@ Convert a PDF to a DOCX file.
 - [Matching API reference](https://medux.io/api-reference/document/pdf-to-docx)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/pdf-to-docx](https://medux.io/playground/document/pdf-to-docx) |
+
+- REST API example: [examples/document/pdf-to-docx](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/pdf-to-docx)
+- Codex example: [codex/documents/document-pdf-to-docx](../../../codex/documents/document-pdf-to-docx/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

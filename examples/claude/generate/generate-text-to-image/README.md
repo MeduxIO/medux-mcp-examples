@@ -40,6 +40,23 @@ Generate an image from a text prompt.
 - [Matching API reference](https://medux.io/api-reference/generate/text-to-image)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/text-to-image-turbo](https://medux.io/playground/image/text-to-image-turbo) |
+| Workshop | [medux.io/workshop/krea2-turbo-unlimited](https://medux.io/workshop/krea2-turbo-unlimited) |
+| Workshop | [medux.io/workshop/minimax-h3-image](https://medux.io/workshop/minimax-h3-image) |
+| Workshop | [medux.io/workshop/moss-image](https://medux.io/workshop/moss-image) |
+| Workshop | [medux.io/workshop/qwen-text-to-image](https://medux.io/workshop/qwen-text-to-image) |
+| Workshop | [medux.io/workshop/z-image](https://medux.io/workshop/z-image) |
+
+- REST API example: [examples/image/text-to-image-turbo](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/image/text-to-image-turbo)
+- Codex example: [codex/generate/generate-text-to-image](../../../codex/generate/generate-text-to-image/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

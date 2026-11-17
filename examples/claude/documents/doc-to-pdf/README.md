@@ -31,6 +31,18 @@ Use Medux to convert "Artificial Intelligence and Transformer Models.docx" to a 
 - [Matching API reference](https://medux.io/api-reference/document/word-to-pdf)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/word-to-pdf](https://medux.io/playground/document/word-to-pdf) |
+
+- REST API example: [examples/document/word-to-pdf](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/word-to-pdf)
+- Codex example: [codex/documents/document-word-to-pdf](../../../codex/documents/document-word-to-pdf/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

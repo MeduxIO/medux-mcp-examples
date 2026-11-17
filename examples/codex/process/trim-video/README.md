@@ -33,3 +33,15 @@ inspection tool, if available, to verify that its duration is about 25 seconds.
 
 - [Complete Codex MCP tutorial](https://medux.io/tutorials/media_trim_video_codex_mcp.html)
 - [Trim Video API reference](https://medux.io/api-reference/media/trim-video)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/trim-video](https://medux.io/playground/video/trim-video) |
+
+- REST API example: [examples/video/trim-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/trim-video)
+- Claude example: [claude/media/media-trim-video](../../../claude/media/media-trim-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

@@ -38,3 +38,17 @@ result into this workspace, and report the saved path.
 
 - [Complete Codex MCP tutorial](https://medux.io/tutorials/generate_create_image_to_video_codex_mcp.html)
 - [Create Image to Video API reference](https://medux.io/api-reference/generate/create-image-to-video)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/image-to-video](https://medux.io/playground/video/image-to-video) |
+| Workshop | [medux.io/workshop/image-to-video](https://medux.io/workshop/image-to-video) |
+| Workshop | [medux.io/workshop/wan3](https://medux.io/workshop/wan3) |
+
+- REST API example: [examples/generate/create-image-to-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/generate/create-image-to-video)
+- Claude example: [claude/generate/generate-create-image-to-video](../../../claude/generate/generate-create-image-to-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

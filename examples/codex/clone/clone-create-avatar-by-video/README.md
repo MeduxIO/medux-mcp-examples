@@ -30,6 +30,18 @@ Clone a reusable avatar from the uploaded source video {file id}. Title it Offic
 - [Matching API reference](https://medux.io/api-reference/clone/create-avatar-by-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/avatar/clone-by-video](https://medux.io/playground/avatar/clone-by-video) |
+
+- REST API example: [examples/clone/create-avatar-by-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/clone/create-avatar-by-video)
+- Claude example: [claude/clone/clone-create-avatar-by-video](../../../claude/clone/clone-create-avatar-by-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

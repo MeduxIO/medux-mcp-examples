@@ -34,6 +34,18 @@ Generate a talking video from a reference image, driving audio, and prompt text.
 - [Matching API reference](https://medux.io/api-reference/generate/image-audio-driven-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/image-audio-driven-video](https://medux.io/playground/video/image-audio-driven-video) |
+
+- REST API example: [examples/ai-avatar/image-audio-driven-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/image-audio-driven-video)
+- Claude example: [claude/generate/generate-image-audio-driven-video](../../../claude/generate/generate-image-audio-driven-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

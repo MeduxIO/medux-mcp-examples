@@ -32,6 +32,18 @@ Speed up or slow down a video.
 - [Matching API reference](https://medux.io/api-reference/media/change-video-speed)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/change-video-speed](https://medux.io/playground/video/change-video-speed) |
+
+- REST API example: [examples/video/change-video-speed](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/change-video-speed)
+- Codex example: [codex/media/media-change-video-speed](../../../codex/media/media-change-video-speed/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

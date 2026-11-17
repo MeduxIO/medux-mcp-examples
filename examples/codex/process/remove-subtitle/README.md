@@ -31,6 +31,19 @@ Use Codex MCP and Medux to remove visible subtitles from a video, including vide
 - [Matching API reference](https://medux.io/api-reference/process/create-video-subtitle-removal)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/subtitle-removal](https://medux.io/playground/video/subtitle-removal) |
+| Workshop | [medux.io/workshop/remove/video-subtitles](https://medux.io/workshop/remove/video-subtitles) |
+
+- REST API example: [examples/process/create-video-subtitle-removal](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/process/create-video-subtitle-removal)
+- Claude example: [claude/process/process-create-video-subtitle-removal](../../../claude/process/process-create-video-subtitle-removal/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

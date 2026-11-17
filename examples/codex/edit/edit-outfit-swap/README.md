@@ -32,6 +32,19 @@ Transfer the outfit from the reference image onto the target subject.
 - [Matching API reference](https://medux.io/api-reference/edit/outfit-swap)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/outfit-swap](https://medux.io/playground/image/outfit-swap) |
+| Workshop | [medux.io/workshop/outfit-swap](https://medux.io/workshop/outfit-swap) |
+
+- REST API example: [examples/ai-avatar/outfit-swap](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/outfit-swap)
+- Claude example: [claude/edit/outfit-change](../../../claude/edit/outfit-change/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

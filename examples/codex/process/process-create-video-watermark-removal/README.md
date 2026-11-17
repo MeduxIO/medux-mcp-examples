@@ -32,6 +32,20 @@ Remove the watermark from the uploaded video {file id}. If the watermark area is
 - [Matching API reference](https://medux.io/api-reference/process/create-video-watermark-removal)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/watermark-removal](https://medux.io/playground/video/watermark-removal) |
+| Playground | [medux.io/playground/video/watermark-removal-by-prompt](https://medux.io/playground/video/watermark-removal-by-prompt) |
+| Workshop | [medux.io/workshop/remove/video-watermark-by-prompt](https://medux.io/workshop/remove/video-watermark-by-prompt) |
+
+- REST API example: [examples/video/watermark-removal](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/watermark-removal)
+- Claude example: [claude/process/process-create-video-watermark-removal](../../../claude/process/process-create-video-watermark-removal/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

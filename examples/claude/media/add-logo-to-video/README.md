@@ -31,6 +31,18 @@ Prompt used in Claude Use Medux to add logo.png to sample.mp4. Resize the logo t
 - [Matching API reference](https://medux.io/api-reference/media/add-logo-to-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/add-logo-to-video](https://medux.io/playground/video/add-logo-to-video) |
+
+- REST API example: [examples/video/add-logo-to-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/add-logo-to-video)
+- Codex example: [codex/process/add-logo-to-video](../../../codex/process/add-logo-to-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

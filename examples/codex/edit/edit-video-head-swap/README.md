@@ -37,6 +37,18 @@ Animate a swapped face image with a driving video to produce a head swap video.
 - [Matching API reference](https://medux.io/api-reference/edit/video-head-swap)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/video-head-swap](https://medux.io/playground/video/video-head-swap) |
+
+- REST API example: [examples/ai-avatar/video-head-swap](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/ai-avatar/video-head-swap)
+- Claude example: [claude/edit/edit-video-head-swap](../../../claude/edit/edit-video-head-swap/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

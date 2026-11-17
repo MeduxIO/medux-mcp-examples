@@ -32,6 +32,18 @@ Rotate a video by 90, 180, or 270 degrees.
 - [Matching API reference](https://medux.io/api-reference/media/rotate-video)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/rotate-video](https://medux.io/playground/video/rotate-video) |
+
+- REST API example: [examples/video/rotate-video](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/rotate-video)
+- Claude example: [claude/media/media-rotate-video](../../../claude/media/media-rotate-video/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

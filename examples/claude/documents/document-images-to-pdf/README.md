@@ -31,6 +31,18 @@ Combine multiple images into a single PDF.
 - [Matching API reference](https://medux.io/api-reference/document/images-to-pdf)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/document/images-to-pdf](https://medux.io/playground/document/images-to-pdf) |
+
+- REST API example: [examples/document/images-to-pdf](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/document/images-to-pdf)
+- Codex example: [codex/documents/document-images-to-pdf](../../../codex/documents/document-images-to-pdf/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

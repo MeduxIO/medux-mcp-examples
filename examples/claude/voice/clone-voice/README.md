@@ -35,3 +35,15 @@ synthesize additional speech unless I ask separately.
 - [Complete Claude MCP tutorial](https://medux.io/tutorials/clone_create_voice_claude_mcp.html)
 - [Create Voice API reference](https://medux.io/api-reference/clone/create-voice)
 - [Medux pricing](https://medux.io/pricing)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/voice/voice-clone](https://medux.io/playground/voice/voice-clone) |
+
+- REST API example: [examples/clone/create-voice](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/clone/create-voice)
+- Codex example: [codex/clone/clone-create-voice](../../../codex/clone/clone-create-voice/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

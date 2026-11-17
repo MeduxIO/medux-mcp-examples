@@ -1,0 +1,52 @@
+# How to Remove an Object from a Video by Describing It with Codex MCP and Medux
+
+Remove an object from a video by describing it in text instead of drawing a region.
+
+## Expected Medux tools
+
+- `medux_file_create_upload_url`
+- `medux_remove_video_object_by_prompt`
+- `medux_task_query`
+
+## Prompt
+
+```text
+Use Medux to remove "the red bicycle on the left" from ./clip.mp4. Upload the file, show me the arguments, poll the task and save the result.
+```
+
+## Review before approval
+
+- `input_file_id` (required): the uploaded video's file ID.
+- `prompt_text` (required): describe exactly one object, with a position or colour.
+- Check the result for leftover artifacts before using it.
+- Every local file or attachment maps to the intended Medux file or asset ID.
+- Operation order, output settings, and cost-relevant options match the request.
+
+## Codex notes
+
+- Use `/mcp` to confirm that Medux and the expected tool are available.
+- Workspace paths must point to the intended local inputs and output directory.
+- Review any network, shell, or filesystem approval requested during upload, download, or verification.
+
+## Learn more
+
+- [Medux tutorials](https://medux.io/tutorials/)
+- [Tool reference](../../../../docs/tools.md)
+- [Medux MCP overview](https://medux.io/overview/mcp)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/remove-video-object-by-prompt](https://medux.io/playground/video/remove-video-object-by-prompt) |
+| Workshop | [medux.io/workshop/remove/video-object-by-prompt](https://medux.io/workshop/remove/video-object-by-prompt) |
+
+- REST API example: [examples/video/remove-video-object-by-prompt](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/remove-video-object-by-prompt)
+- Claude example: [claude/workshop/remove-video-object-by-prompt](../../../claude/workshop/remove-video-object-by-prompt/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
+## Verification
+
+Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

@@ -31,3 +31,16 @@ and report its file type and dimensions.
 
 - [Complete Claude MCP tutorial](https://medux.io/tutorials/process_create_image_background_removal_claude_mcp.html)
 - [Image Background Removal API reference](https://medux.io/api-reference/process/create-image-background-removal)
+
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/background-removal](https://medux.io/playground/image/background-removal) |
+| Workshop | [medux.io/workshop/remove/image-background](https://medux.io/workshop/remove/image-background) |
+
+- REST API example: [examples/process/create-image-background-removal](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/process/create-image-background-removal)
+- Codex example: [codex/process/process-create-image-background-removal](../../../codex/process/process-create-image-background-removal/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->

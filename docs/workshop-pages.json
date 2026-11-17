@@ -1,0 +1,661 @@
+{
+  "no_mcp": {
+    "/playground/video/ltx-dub-it": "LTX-2.3 Dub-It video dubbing"
+  },
+  "pages": {
+    "/playground/audio/adjust-audio-volume": {
+      "api": "examples/voice-audio/adjust-audio-volume",
+      "claude": "examples/claude/media/media-adjust-audio-volume",
+      "codex": "examples/codex/media/media-adjust-audio-volume",
+      "tool": "medux_adjust_audio_volume"
+    },
+    "/playground/audio/change-audio-speed": {
+      "api": "examples/voice-audio/change-audio-speed",
+      "claude": "examples/claude/media/media-change-audio-speed",
+      "codex": "examples/codex/media/media-change-audio-speed",
+      "tool": "medux_change_audio_speed"
+    },
+    "/playground/audio/merge-audio": {
+      "api": "examples/voice-audio/merge-audio",
+      "claude": "examples/claude/media/media-merge-audio",
+      "codex": "examples/codex/media/media-merge-audio",
+      "tool": "medux_merge_audio"
+    },
+    "/playground/audio/reverse-audio": {
+      "api": "examples/voice-audio/reverse-audio",
+      "claude": "examples/claude/media/media-reverse-audio",
+      "codex": "examples/codex/media/media-reverse-audio",
+      "tool": "medux_reverse_audio"
+    },
+    "/playground/audio/shift-audio-pitch": {
+      "api": "examples/voice-audio/shift-audio-pitch",
+      "claude": "examples/claude/media/adjust-audio-pitch",
+      "codex": "examples/codex/media/media-shift-audio-pitch",
+      "tool": "medux_shift_audio_pitch"
+    },
+    "/playground/audio/trim-audio": {
+      "api": "examples/voice-audio/trim-audio",
+      "claude": "examples/claude/media/media-trim-audio",
+      "codex": "examples/codex/media/media-trim-audio",
+      "tool": "medux_trim_audio"
+    },
+    "/playground/avatar/clone-by-image": {
+      "api": "examples/clone/create-avatar-by-image",
+      "claude": "examples/claude/clone/clone-create-avatar-by-image",
+      "codex": "examples/codex/clone/clone-create-avatar-by-image",
+      "tool": "medux_avatar_clone_by_image"
+    },
+    "/playground/avatar/clone-by-video": {
+      "api": "examples/clone/create-avatar-by-video",
+      "claude": "examples/claude/clone/clone-create-avatar-by-video",
+      "codex": "examples/codex/clone/clone-create-avatar-by-video",
+      "tool": "medux_avatar_clone_by_video"
+    },
+    "/playground/document/excel-to-pdf": {
+      "api": "examples/document/excel-to-pdf",
+      "claude": "examples/claude/documents/document-excel-to-pdf",
+      "codex": "examples/codex/documents/document-excel-to-pdf",
+      "tool": "medux_excel_to_pdf"
+    },
+    "/playground/document/images-to-pdf": {
+      "api": "examples/document/images-to-pdf",
+      "claude": "examples/claude/documents/document-images-to-pdf",
+      "codex": "examples/codex/documents/document-images-to-pdf",
+      "tool": "medux_images_to_pdf"
+    },
+    "/playground/document/jpg-png-to-pdf": {
+      "api": "examples/document/jpg-png-to-pdf",
+      "claude": "examples/claude/documents/document-jpg-png-to-pdf",
+      "codex": "examples/codex/documents/document-jpg-png-to-pdf",
+      "tool": "medux_jpg_png_to_pdf"
+    },
+    "/playground/document/merge-pdf": {
+      "api": "examples/document/merge-pdf",
+      "claude": "examples/claude/documents/merge-pdfs",
+      "codex": "examples/codex/documents/document-merge-pdf",
+      "tool": "medux_merge_pdf"
+    },
+    "/playground/document/pdf-to-docx": {
+      "api": "examples/document/pdf-to-docx",
+      "claude": "examples/claude/documents/document-pdf-to-docx",
+      "codex": "examples/codex/documents/document-pdf-to-docx",
+      "tool": "medux_pdf_to_docx"
+    },
+    "/playground/document/pdf-to-excel": {
+      "api": "examples/document/pdf-to-excel",
+      "claude": "examples/claude/documents/document-pdf-to-excel",
+      "codex": "examples/codex/documents/document-pdf-to-excel",
+      "tool": "medux_pdf_to_excel"
+    },
+    "/playground/document/pdf-to-images": {
+      "api": "examples/document/pdf-to-images",
+      "claude": "examples/claude/documents/document-pdf-to-images",
+      "codex": "examples/codex/documents/document-pdf-to-images",
+      "tool": "medux_pdf_to_images"
+    },
+    "/playground/document/pdf-to-jpg": {
+      "api": "examples/document/pdf-to-jpg",
+      "claude": "examples/claude/documents/document-pdf-to-jpg",
+      "codex": "examples/codex/documents/document-pdf-to-jpg",
+      "tool": "medux_pdf_to_jpg"
+    },
+    "/playground/document/pdf-to-png": {
+      "api": "examples/document/pdf-to-png",
+      "claude": "examples/claude/documents/document-pdf-to-png",
+      "codex": "examples/codex/documents/document-pdf-to-png",
+      "tool": "medux_pdf_to_png"
+    },
+    "/playground/document/pdf-to-ppt": {
+      "api": "examples/document/pdf-to-ppt",
+      "claude": "examples/claude/documents/document-pdf-to-ppt",
+      "codex": "examples/codex/documents/document-pdf-to-ppt",
+      "tool": "medux_pdf_to_ppt"
+    },
+    "/playground/document/pdf-to-word": {
+      "api": "examples/document/pdf-to-word",
+      "claude": "examples/claude/documents/document-pdf-to-word",
+      "codex": "examples/codex/documents/pdf-to-word",
+      "tool": "medux_pdf_to_word"
+    },
+    "/playground/document/ppt-to-pdf": {
+      "api": "examples/document/ppt-to-pdf",
+      "claude": "examples/claude/documents/document-ppt-to-pdf",
+      "codex": "examples/codex/documents/document-ppt-to-pdf",
+      "tool": "medux_ppt_to_pdf"
+    },
+    "/playground/document/split-pdf": {
+      "api": "examples/document/split-pdf",
+      "claude": "examples/claude/documents/document-split-pdf",
+      "codex": "examples/codex/documents/document-split-pdf",
+      "tool": "medux_split_pdf"
+    },
+    "/playground/document/word-to-pdf": {
+      "api": "examples/document/word-to-pdf",
+      "claude": "examples/claude/documents/doc-to-pdf",
+      "codex": "examples/codex/documents/document-word-to-pdf",
+      "tool": "medux_word_to_pdf"
+    },
+    "/playground/image/background-removal": {
+      "api": "examples/process/create-image-background-removal",
+      "claude": "examples/claude/process/remove-image-background",
+      "codex": "examples/codex/process/process-create-image-background-removal",
+      "tool": "medux_image_remove_background"
+    },
+    "/playground/image/face-swap": {
+      "api": "examples/ai-avatar/face-swap",
+      "claude": "examples/claude/edit/face-swap",
+      "codex": "examples/codex/edit/edit-face-swap",
+      "tool": "medux_image_face_swap"
+    },
+    "/playground/image/head-swap": {
+      "api": "examples/ai-avatar/head-swap",
+      "claude": "examples/claude/edit/head-swap",
+      "codex": "examples/codex/edit/head-swap",
+      "tool": "medux_image_head_swap"
+    },
+    "/playground/image/image-edit-turbo": {
+      "api": "examples/image/image-edit-turbo",
+      "claude": "examples/claude/workshop/image-edit-turbo",
+      "codex": "examples/codex/workshop/image-edit-turbo",
+      "tool": "medux_image_edit"
+    },
+    "/playground/image/outfit-swap": {
+      "api": "examples/ai-avatar/outfit-swap",
+      "claude": "examples/claude/edit/outfit-change",
+      "codex": "examples/codex/edit/edit-outfit-swap",
+      "tool": "medux_image_outfit_swap"
+    },
+    "/playground/image/photo-repair": {
+      "api": "examples/image/photo-repair",
+      "claude": "examples/claude/edit/old-photo-restoration",
+      "codex": "examples/codex/edit/restore-old-photo",
+      "tool": "medux_photo_repair"
+    },
+    "/playground/image/text-to-image": {
+      "api": "examples/generate/create-text-to-image",
+      "claude": "examples/claude/workshop/create-text-to-image",
+      "codex": "examples/codex/workshop/create-text-to-image",
+      "tool": "medux_image_generate_text_to_image"
+    },
+    "/playground/image/text-to-image-turbo": {
+      "api": "examples/image/text-to-image-turbo",
+      "claude": "examples/claude/generate/generate-text-to-image",
+      "codex": "examples/codex/generate/generate-text-to-image",
+      "tool": "medux_text_to_image"
+    },
+    "/playground/speech/text-to-speech-audio": {
+      "api": "examples/generate/create-audio",
+      "claude": "examples/claude/generate/generate-create-audio",
+      "codex": "examples/codex/generate/generate-create-audio",
+      "tool": "medux_speech_create_audio"
+    },
+    "/playground/video/add-audio-to-video": {
+      "api": "examples/video/add-audio-to-video",
+      "claude": "examples/claude/workflows/add-audio-track-to-video",
+      "codex": "examples/codex/media/media-add-audio-to-video",
+      "tool": "medux_add_audio_to_video"
+    },
+    "/playground/video/add-logo-to-video": {
+      "api": "examples/video/add-logo-to-video",
+      "claude": "examples/claude/media/add-logo-to-video",
+      "codex": "examples/codex/process/add-logo-to-video",
+      "tool": "medux_add_logo_to_video"
+    },
+    "/playground/video/adjust-video-volume": {
+      "api": "examples/video/adjust-video-volume",
+      "claude": "examples/claude/media/media-adjust-video-volume",
+      "codex": "examples/codex/media/media-adjust-video-volume",
+      "tool": "medux_adjust_video_volume"
+    },
+    "/playground/video/audio-driven-lip-sync": {
+      "api": "examples/generate/create-audio-driven-video",
+      "claude": "examples/claude/generate/generate-create-audio-driven-video",
+      "codex": "examples/codex/generate/lipsync",
+      "tool": "medux_video_create_audio_driven"
+    },
+    "/playground/video/background-removal": {
+      "api": "examples/process/create-video-background-removal",
+      "claude": "examples/claude/process/process-create-video-background-removal",
+      "codex": "examples/codex/process/process-create-video-background-removal",
+      "tool": "medux_video_remove_background"
+    },
+    "/playground/video/change-video-speed": {
+      "api": "examples/video/change-video-speed",
+      "claude": "examples/claude/media/media-change-video-speed",
+      "codex": "examples/codex/media/media-change-video-speed",
+      "tool": "medux_change_video_speed"
+    },
+    "/playground/video/character-replacement": {
+      "api": "examples/ai-avatar/character-replacement",
+      "claude": "examples/claude/workflows/character-replacement",
+      "codex": "examples/codex/edit/character-replacement",
+      "tool": "medux_video_character_replacement"
+    },
+    "/playground/video/character-replacement-plus": {
+      "api": "examples/ai-avatar/character-replacement-plus",
+      "claude": "examples/claude/workshop/character-replacement-plus",
+      "codex": "examples/codex/workshop/character-replacement-plus",
+      "tool": "medux_video_character_replacement_plus"
+    },
+    "/playground/video/face-swap-plus": {
+      "api": "examples/ai-avatar/face-swap-plus",
+      "claude": "examples/claude/edit/face-swap-plus",
+      "codex": "examples/codex/edit/face-swap-plus",
+      "tool": "medux_video_face_swap_plus"
+    },
+    "/playground/video/first-last-frame-to-video": {
+      "api": "examples/generate/create-first-last-frame-to-video",
+      "claude": "examples/claude/workshop/create-first-last-frame-to-video",
+      "codex": "examples/codex/workshop/create-first-last-frame-to-video",
+      "tool": "medux_video_generate_first_last_frame_to_video"
+    },
+    "/playground/video/flip-video": {
+      "api": "examples/video/flip-video",
+      "claude": "examples/claude/media/media-flip-video",
+      "codex": "examples/codex/media/media-flip-video",
+      "tool": "medux_flip_video"
+    },
+    "/playground/video/image-audio-driven-video": {
+      "api": "examples/ai-avatar/image-audio-driven-video",
+      "claude": "examples/claude/generate/generate-image-audio-driven-video",
+      "codex": "examples/codex/generate/generate-image-audio-driven-video",
+      "tool": "medux_image_audio_driven_video"
+    },
+    "/playground/video/image-to-video": {
+      "api": "examples/generate/create-image-to-video",
+      "claude": "examples/claude/generate/generate-create-image-to-video",
+      "codex": "examples/codex/generate/image-to-video",
+      "tool": "medux_video_generate_image_to_video"
+    },
+    "/playground/video/merge-video": {
+      "api": "examples/video/merge-video",
+      "claude": "examples/claude/media/video-merge",
+      "codex": "examples/codex/media/video-editing",
+      "tool": "medux_merge_video"
+    },
+    "/playground/video/mv-director": {
+      "api": "examples/video/mv-director",
+      "claude": "examples/claude/workshop/mv-director",
+      "codex": "examples/codex/workshop/mv-director",
+      "tool": "medux_mv_director"
+    },
+    "/playground/video/omni-reference-to-video": {
+      "api": "examples/generate/create-omni-reference-to-video",
+      "claude": "examples/claude/workshop/create-omni-reference-to-video",
+      "codex": "examples/codex/workshop/create-omni-reference-to-video",
+      "tool": "medux_video_generate_omni_reference_to_video"
+    },
+    "/playground/video/remove-video-object": {
+      "api": "examples/video/remove-video-object",
+      "claude": "examples/claude/edit/edit-remove-video-object",
+      "codex": "examples/codex/edit/edit-remove-video-object",
+      "tool": "medux_remove_video_object"
+    },
+    "/playground/video/remove-video-object-by-prompt": {
+      "api": "examples/video/remove-video-object-by-prompt",
+      "claude": "examples/claude/workshop/remove-video-object-by-prompt",
+      "codex": "examples/codex/workshop/remove-video-object-by-prompt",
+      "tool": "medux_remove_video_object_by_prompt"
+    },
+    "/playground/video/resize-video": {
+      "api": "examples/video/resize-video",
+      "claude": "examples/claude/media/media-resize-video",
+      "codex": "examples/codex/media/media-resize-video",
+      "tool": "medux_resize_video"
+    },
+    "/playground/video/rotate-video": {
+      "api": "examples/video/rotate-video",
+      "claude": "examples/claude/media/media-rotate-video",
+      "codex": "examples/codex/media/media-rotate-video",
+      "tool": "medux_rotate_video"
+    },
+    "/playground/video/split-video": {
+      "api": "examples/video/split-video",
+      "claude": "examples/claude/media/media-split-video",
+      "codex": "examples/codex/media/media-split-video",
+      "tool": "medux_split_video"
+    },
+    "/playground/video/subtitle-removal": {
+      "api": "examples/process/create-video-subtitle-removal",
+      "claude": "examples/claude/process/process-create-video-subtitle-removal",
+      "codex": "examples/codex/process/remove-subtitle",
+      "tool": "medux_video_remove_subtitle"
+    },
+    "/playground/video/text-driven-lip-sync": {
+      "api": "examples/generate/create-text-driven-video",
+      "claude": "examples/claude/generate/generate-create-text-driven-video",
+      "codex": "examples/codex/generate/generate-create-text-driven-video",
+      "tool": "medux_video_create_text_driven"
+    },
+    "/playground/video/text-image-to-video": {
+      "api": "examples/video/text-image-to-video",
+      "claude": "examples/claude/workshop/text-image-to-video",
+      "codex": "examples/codex/workshop/text-image-to-video",
+      "tool": "medux_text_image_to_video"
+    },
+    "/playground/video/text-to-video": {
+      "api": "examples/generate/create-text-to-video",
+      "claude": "examples/claude/generate/generate-create-text-to-video",
+      "codex": "examples/codex/generate/text-to-video",
+      "tool": "medux_video_generate_text_to_video"
+    },
+    "/playground/video/trim-video": {
+      "api": "examples/video/trim-video",
+      "claude": "examples/claude/media/media-trim-video",
+      "codex": "examples/codex/process/trim-video",
+      "tool": "medux_trim_video"
+    },
+    "/playground/video/video-face-swap": {
+      "api": "examples/video/video-face-swap",
+      "claude": "examples/claude/workshop/video-face-swap",
+      "codex": "examples/codex/workshop/video-face-swap",
+      "tool": "medux_video_face_swap"
+    },
+    "/playground/video/video-head-swap": {
+      "api": "examples/ai-avatar/video-head-swap",
+      "claude": "examples/claude/edit/edit-video-head-swap",
+      "codex": "examples/codex/edit/edit-video-head-swap",
+      "tool": "medux_animate_head_swap"
+    },
+    "/playground/video/video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/playground/video/video-upscale": {
+      "api": "examples/video/video-upscale",
+      "claude": "examples/claude/edit/edit-video-upscale",
+      "codex": "examples/codex/edit/edit-video-upscale",
+      "tool": "medux_video_upscale"
+    },
+    "/playground/video/watermark-removal": {
+      "api": "examples/video/watermark-removal",
+      "claude": "examples/claude/process/process-create-video-watermark-removal",
+      "codex": "examples/codex/process/process-create-video-watermark-removal",
+      "tool": "medux_watermark_removal"
+    },
+    "/playground/video/watermark-removal-by-prompt": {
+      "api": "examples/video/watermark-removal-by-prompt",
+      "claude": "examples/claude/process/process-create-video-watermark-removal",
+      "codex": "examples/codex/process/process-create-video-watermark-removal",
+      "tool": "medux_watermark_removal_by_prompt"
+    },
+    "/playground/voice/voice-clone": {
+      "api": "examples/clone/create-voice",
+      "claude": "examples/claude/voice/clone-voice",
+      "codex": "examples/codex/clone/clone-create-voice",
+      "tool": "medux_clone_voice"
+    },
+    "/workshop/avatar": {
+      "api": "examples/generate/create-text-driven-video",
+      "claude": "examples/claude/generate/generate-create-text-driven-video",
+      "codex": "examples/codex/generate/generate-create-text-driven-video",
+      "tool": "medux_video_create_text_driven"
+    },
+    "/workshop/avatar/*": {
+      "api": "examples/generate/create-text-driven-video",
+      "claude": "examples/claude/generate/generate-create-text-driven-video",
+      "codex": "examples/codex/generate/generate-create-text-driven-video",
+      "tool": "medux_video_create_text_driven"
+    },
+    "/workshop/character-replacement": {
+      "api": "examples/ai-avatar/character-replacement",
+      "claude": "examples/claude/workflows/character-replacement",
+      "codex": "examples/codex/edit/character-replacement",
+      "tool": "medux_video_character_replacement"
+    },
+    "/workshop/character-replacement-plus": {
+      "api": "examples/ai-avatar/character-replacement-plus",
+      "claude": "examples/claude/workshop/character-replacement-plus",
+      "codex": "examples/codex/workshop/character-replacement-plus",
+      "tool": "medux_video_character_replacement_plus"
+    },
+    "/workshop/face-swap": {
+      "api": "examples/video/video-face-swap",
+      "claude": "examples/claude/workshop/video-face-swap",
+      "codex": "examples/codex/workshop/video-face-swap",
+      "tool": "medux_video_face_swap"
+    },
+    "/workshop/face-swap-plus": {
+      "api": "examples/ai-avatar/face-swap-plus",
+      "claude": "examples/claude/edit/face-swap-plus",
+      "codex": "examples/codex/edit/face-swap-plus",
+      "tool": "medux_video_face_swap_plus"
+    },
+    "/workshop/first-last-frame-to-video": {
+      "api": "examples/generate/create-first-last-frame-to-video",
+      "claude": "examples/claude/workshop/create-first-last-frame-to-video",
+      "codex": "examples/codex/workshop/create-first-last-frame-to-video",
+      "tool": "medux_video_generate_first_last_frame_to_video"
+    },
+    "/workshop/image-edit": {
+      "api": "examples/image/image-edit-turbo",
+      "claude": "examples/claude/workshop/image-edit-turbo",
+      "codex": "examples/codex/workshop/image-edit-turbo",
+      "tool": "medux_image_edit"
+    },
+    "/workshop/image-face-swap": {
+      "api": "examples/ai-avatar/face-swap",
+      "claude": "examples/claude/edit/face-swap",
+      "codex": "examples/codex/edit/edit-face-swap",
+      "tool": "medux_image_face_swap"
+    },
+    "/workshop/image-to-video": {
+      "api": "examples/generate/create-image-to-video",
+      "claude": "examples/claude/generate/generate-create-image-to-video",
+      "codex": "examples/codex/generate/image-to-video",
+      "tool": "medux_video_generate_image_to_video"
+    },
+    "/workshop/krea2-turbo-unlimited": {
+      "api": "examples/image/text-to-image-turbo",
+      "claude": "examples/claude/generate/generate-text-to-image",
+      "codex": "examples/codex/generate/generate-text-to-image",
+      "tool": "medux_text_to_image"
+    },
+    "/workshop/lipsync": {
+      "api": "examples/generate/create-audio-driven-video",
+      "claude": "examples/claude/generate/generate-create-audio-driven-video",
+      "codex": "examples/codex/generate/lipsync",
+      "tool": "medux_video_create_audio_driven"
+    },
+    "/workshop/minimax-h3-image": {
+      "api": "examples/image/text-to-image-turbo",
+      "claude": "examples/claude/generate/generate-text-to-image",
+      "codex": "examples/codex/generate/generate-text-to-image",
+      "tool": "medux_text_to_image"
+    },
+    "/workshop/minimax-h3-unlimited": {
+      "api": "examples/video/text-image-to-video",
+      "claude": "examples/claude/workshop/text-image-to-video",
+      "codex": "examples/codex/workshop/text-image-to-video",
+      "tool": "medux_text_image_to_video"
+    },
+    "/workshop/moss-image": {
+      "api": "examples/image/text-to-image-turbo",
+      "claude": "examples/claude/generate/generate-text-to-image",
+      "codex": "examples/codex/generate/generate-text-to-image",
+      "tool": "medux_text_to_image"
+    },
+    "/workshop/mv-director": {
+      "api": "examples/video/mv-director",
+      "claude": "examples/claude/workshop/mv-director",
+      "codex": "examples/codex/workshop/mv-director",
+      "tool": "medux_mv_director"
+    },
+    "/workshop/old-photo-repair": {
+      "api": "examples/image/photo-repair",
+      "claude": "examples/claude/edit/old-photo-restoration",
+      "codex": "examples/codex/edit/restore-old-photo",
+      "tool": "medux_photo_repair"
+    },
+    "/workshop/outfit-swap": {
+      "api": "examples/ai-avatar/outfit-swap",
+      "claude": "examples/claude/edit/outfit-change",
+      "codex": "examples/codex/edit/edit-outfit-swap",
+      "tool": "medux_image_outfit_swap"
+    },
+    "/workshop/qwen-image-edit": {
+      "api": "examples/image/image-edit-turbo",
+      "claude": "examples/claude/workshop/image-edit-turbo",
+      "codex": "examples/codex/workshop/image-edit-turbo",
+      "tool": "medux_image_edit"
+    },
+    "/workshop/qwen-text-to-image": {
+      "api": "examples/image/text-to-image-turbo",
+      "claude": "examples/claude/generate/generate-text-to-image",
+      "codex": "examples/codex/generate/generate-text-to-image",
+      "tool": "medux_text_to_image"
+    },
+    "/workshop/remove": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/filmora-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/heygen-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/image-background": {
+      "api": "examples/process/create-image-background-removal",
+      "claude": "examples/claude/process/remove-image-background",
+      "codex": "examples/codex/process/process-create-image-background-removal",
+      "tool": "medux_image_remove_background"
+    },
+    "/workshop/remove/inshot-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/instagram-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/kling-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/luma-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/pika-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/pixverse-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/snapchat-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/tiktok-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/veo-video-logo-removal": {
+      "api": "examples/video/video-logo-removal",
+      "claude": "examples/claude/process/process-video-logo-removal",
+      "codex": "examples/codex/process/process-video-logo-removal",
+      "tool": "medux_video_logo_removal"
+    },
+    "/workshop/remove/video-background": {
+      "api": "examples/process/create-video-background-removal",
+      "claude": "examples/claude/process/process-create-video-background-removal",
+      "codex": "examples/codex/process/process-create-video-background-removal",
+      "tool": "medux_video_remove_background"
+    },
+    "/workshop/remove/video-object": {
+      "api": "examples/video/remove-video-object",
+      "claude": "examples/claude/edit/edit-remove-video-object",
+      "codex": "examples/codex/edit/edit-remove-video-object",
+      "tool": "medux_remove_video_object"
+    },
+    "/workshop/remove/video-object-by-prompt": {
+      "api": "examples/video/remove-video-object-by-prompt",
+      "claude": "examples/claude/workshop/remove-video-object-by-prompt",
+      "codex": "examples/codex/workshop/remove-video-object-by-prompt",
+      "tool": "medux_remove_video_object_by_prompt"
+    },
+    "/workshop/remove/video-subtitles": {
+      "api": "examples/process/create-video-subtitle-removal",
+      "claude": "examples/claude/process/process-create-video-subtitle-removal",
+      "codex": "examples/codex/process/remove-subtitle",
+      "tool": "medux_video_remove_subtitle"
+    },
+    "/workshop/remove/video-watermark-by-prompt": {
+      "api": "examples/video/watermark-removal-by-prompt",
+      "claude": "examples/claude/process/process-create-video-watermark-removal",
+      "codex": "examples/codex/process/process-create-video-watermark-removal",
+      "tool": "medux_watermark_removal_by_prompt"
+    },
+    "/workshop/seedance25": {
+      "api": "examples/generate/create-text-to-video",
+      "claude": "examples/claude/generate/generate-create-text-to-video",
+      "codex": "examples/codex/generate/text-to-video",
+      "tool": "medux_video_generate_text_to_video"
+    },
+    "/workshop/seedream": {
+      "api": "examples/generate/create-text-to-image",
+      "claude": "examples/claude/workshop/create-text-to-image",
+      "codex": "examples/codex/workshop/create-text-to-image",
+      "tool": "medux_image_generate_text_to_image"
+    },
+    "/workshop/tts": {
+      "api": "examples/generate/create-audio",
+      "claude": "examples/claude/generate/generate-create-audio",
+      "codex": "examples/codex/generate/generate-create-audio",
+      "tool": "medux_speech_create_audio"
+    },
+    "/workshop/voice": {
+      "api": "examples/generate/create-audio",
+      "claude": "examples/claude/generate/generate-create-audio",
+      "codex": "examples/codex/generate/generate-create-audio",
+      "tool": "medux_speech_create_audio"
+    },
+    "/workshop/voice/*": {
+      "api": "examples/generate/create-audio",
+      "claude": "examples/claude/generate/generate-create-audio",
+      "codex": "examples/codex/generate/generate-create-audio",
+      "tool": "medux_speech_create_audio"
+    },
+    "/workshop/wan3": {
+      "api": "examples/generate/create-image-to-video",
+      "claude": "examples/claude/generate/generate-create-image-to-video",
+      "codex": "examples/codex/generate/image-to-video",
+      "tool": "medux_video_generate_image_to_video"
+    },
+    "/workshop/z-image": {
+      "api": "examples/image/text-to-image-turbo",
+      "claude": "examples/claude/generate/generate-text-to-image",
+      "codex": "examples/codex/generate/generate-text-to-image",
+      "tool": "medux_text_to_image"
+    }
+  }
+}

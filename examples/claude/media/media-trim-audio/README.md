@@ -34,6 +34,18 @@ Cut an audio file to a specified time range.
 - [Matching API reference](https://medux.io/api-reference/media/trim-audio)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/audio/trim-audio](https://medux.io/playground/audio/trim-audio) |
+
+- REST API example: [examples/voice-audio/trim-audio](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/voice-audio/trim-audio)
+- Codex example: [codex/media/media-trim-audio](../../../codex/media/media-trim-audio/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

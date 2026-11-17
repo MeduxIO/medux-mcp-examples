@@ -31,6 +31,19 @@ Use the connected Medux tools to restore the attached OLD_PHOTO. Repair scratche
 - [Matching API reference](https://medux.io/api-reference/edit/photo-repair)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/image/photo-repair](https://medux.io/playground/image/photo-repair) |
+| Workshop | [medux.io/workshop/old-photo-repair](https://medux.io/workshop/old-photo-repair) |
+
+- REST API example: [examples/image/photo-repair](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/image/photo-repair)
+- Codex example: [codex/edit/restore-old-photo](../../../codex/edit/restore-old-photo/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

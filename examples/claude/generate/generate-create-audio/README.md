@@ -34,6 +34,21 @@ Generate speech audio from this text using voice asset id {voice asset id} and m
 - [Matching API reference](https://medux.io/api-reference/generate/create-audio)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/speech/text-to-speech-audio](https://medux.io/playground/speech/text-to-speech-audio) |
+| Workshop | [medux.io/workshop/tts](https://medux.io/workshop/tts) |
+| Workshop | [medux.io/workshop/voice](https://medux.io/workshop/voice) |
+| Workshop | [medux.io/workshop/voice/*](https://medux.io/workshop/voice) |
+
+- REST API example: [examples/generate/create-audio](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/generate/create-audio)
+- Codex example: [codex/generate/generate-create-audio](../../../codex/generate/generate-create-audio/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

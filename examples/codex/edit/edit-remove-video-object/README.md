@@ -32,6 +32,19 @@ Remove an object from a video by mask regions.
 - [Matching API reference](https://medux.io/api-reference/edit/remove-video-object)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/video/remove-video-object](https://medux.io/playground/video/remove-video-object) |
+| Workshop | [medux.io/workshop/remove/video-object](https://medux.io/workshop/remove/video-object) |
+
+- REST API example: [examples/video/remove-video-object](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/video/remove-video-object)
+- Claude example: [claude/edit/edit-remove-video-object](../../../claude/edit/edit-remove-video-object/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).

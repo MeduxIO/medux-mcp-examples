@@ -30,6 +30,18 @@ Clone a reusable voice from the uploaded audio file {file id}. Title it Official
 - [Matching API reference](https://medux.io/api-reference/clone/create-voice)
 - [Medux MCP overview](https://medux.io/overview/mcp)
 
+<!-- medux-pages:start -->
+## Try it on medux.io
+
+| Type | Page |
+| --- | --- |
+| Playground | [medux.io/playground/voice/voice-clone](https://medux.io/playground/voice/voice-clone) |
+
+- REST API example: [examples/clone/create-voice](https://github.com/MeduxIO/medux-api-examples/tree/main/examples/clone/create-voice)
+- Claude example: [claude/voice/clone-voice](../../../claude/voice/clone-voice/README.md)
+- All pages: [Playground and Workshop pages](../../../../docs/workshop-pages.md)
+<!-- medux-pages:end -->
+
 ## Verification
 
 Status: **Documentation-derived**. See the repository [verification policy](../../../../docs/verification.md).
